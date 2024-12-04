@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción a la Contabilidad</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: #35495e;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            background: #2c3e50;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        section img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px auto;
+            border-radius: 5px;
+        }
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        h1, h2, h3 {
+            color: #35495e;
+        }
+        ul {
+            list-style-type: disc;
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Introducción a la Contabilidad</h1>
+</header>
+
+<nav>
+    <a href="#que-es-contabilidad">¿Qué es Contabilidad?</a>
+    <a href="#fines-fundamentales">Fines Fundamentales</a>
+    <a href="#articulos-impuestos">Artículos sobre Impuestos</a>
+    <a href="#articulos-contabilidad">Artículos sobre Contabilidad</a>
+    <a href="#padre-contabilidad">Padre de la Contabilidad</a>
+    <a href="#partida-doble">Partida Doble</a>
+    <a href="#referencias">Referencias</a>
+</nav>
+
+<section id="que-es-contabilidad">
+    <h2>¿Qué es Contabilidad?</h2>
+    <p>
+        La contabilidad es una disciplina que se encarga de registrar, clasificar y resumir las operaciones económicas de una entidad, con el propósito de generar información financiera que sirva para la toma de decisiones.
+    </p>
+    <img src="https://via.placeholder.com/800x400?text=Contabilidad" alt="Imagen de contabilidad">
+</section>
+
+<section id="fines-fundamentales">
+    <h2>Fines Fundamentales de la Contabilidad</h2>
+    <ul>
+        <li>Proporcionar información útil para la toma de decisiones financieras.</li>
+        <li>Permitir el cumplimiento de obligaciones fiscales.</li>
+        <li>Controlar los recursos económicos de una organización.</li>
+        <li>Registrar de manera ordenada y sistemática las operaciones financieras.</li>
+    </ul>
+    <img src="https://via.placeholder.com/800x400?text=Fines+de+la+Contabilidad" alt="Imagen de fines fundamentales">
+</section>
+
+<section id="articulos-impuestos">
+    <h2>Artículos que nos mencionan que debemos pagar impuestos</h2>
+    <p>En México, los artículos clave que nos obligan a pagar impuestos incluyen:</p>
+    <ul>
+        <li><strong>Código Fiscal de la Federación (CFF):</strong> Artículo 1 y Artículo 31.</li>
+        <li><strong>Ley del Impuesto sobre la Renta (LISR):</strong> Artículo 9 y Artículo 96.</li>
+        <li><strong>Ley del IVA:</strong> Artículo 1.</li>
+    </ul>
+    <img src="https://via.placeholder.com/800x400?text=Impuestos+en+México" alt="Imagen sobre impuestos">
+</section>
+
+<section id="articulos-contabilidad">
+    <h2>Artículos y leyes que nos mencionan que debemos llevar contabilidad</h2>
+    <p>Según el Código Fiscal de la Federación, llevar contabilidad es una obligación para los contribuyentes. Algunos artículos relevantes son:</p>
+    <ul>
+        <li><strong>Código Fiscal de la Federación (CFF):</strong> Artículo 28 y Artículo 31.</li>
+        <li><strong>Ley del Impuesto sobre la Renta (LISR):</strong> Artículo 76.</li>
+    </ul>
+    <p>Estos artículos establecen los lineamientos para registrar, organizar y conservar los documentos contables.</p>
+    <img src="https://via.placeholder.com/800x400?text=Contabilidad+Obligatoria" alt="Imagen de contabilidad obligatoria">
+</section>
+
+<section id="padre-contabilidad">
+    <h2>¿Quién es el Padre de la Contabilidad?</h2>
+    <p>
+        El padre de la contabilidad es Luca Pacioli (1445-1517), un matemático italiano que en 1494 introdujo el concepto de la partida doble en su libro 
+        <em>"Summa de Arithmetica, Geometria, Proportioni et Proportionalità"</em>.
+    </p>
+    <img src="https://via.placeholder.com/800x400?text=Luca+Pacioli" alt="Imagen de Luca Pacioli">
+</section>
+
+<section id="partida-doble">
+    <h2>¿Qué es la Partida Doble?</h2>
+    <p>
+        La partida doble es un sistema contable en el que cada transacción afecta al menos dos cuentas. Esto asegura que el total de débitos sea igual al total de créditos.
+    </p>
+    <p><strong>Ejemplo:</strong></p>
+    <p>Si se compra maquinaria por $10,000 en efectivo:</p>
+    <ul>
+        <li><strong>Débito:</strong> $10,000 a la cuenta de Maquinaria.</li>
+        <li><strong>Crédito:</strong> $10,000 a la cuenta de Caja.</li>
+    </ul>
+    <img src="https://via.placeholder.com/800x400?text=Partida+Doble" alt="Imagen de partida doble">
+</section>
+
+<section id="referencias">
+    <h2>Referencias</h2>
+    <ul>
+        <li>Código Fiscal de la Federación (CFF). Disponible en: <a href="https://www.diputados.gob.mx/LeyesBiblio/pdf/CFF.pdf">www.diputados.gob.mx</a></li>
+        <li>Ley del Impuesto sobre la Renta (LISR). Disponible en: <a href="https://www.diputados.gob.mx/LeyesBiblio/pdf/LISR.pdf">www.diputados.gob.mx</a></li>
+        <li>Ley del IVA. Disponible en: <a href="https://www.diputados.gob.mx/LeyesBiblio/pdf/LIVA.pdf">www.diputados.gob.mx</a></li>
+        <li>Luca Pacioli y la contabilidad moderna. Disponible en textos históricos sobre contabilidad.</li>
+    </ul>
+</section>
+
+<footer>
+    <p>Creado por Valeria Lizeth Rondon Gamarra | Todos los derechos reservados 2024</p>
+</footer>
+
+</body>
+</html>
